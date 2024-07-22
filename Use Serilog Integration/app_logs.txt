@@ -1,0 +1,85 @@
+2024-07-22 16:15:59.996 +02:00 [INF] Now listening on: https://localhost:7224
+2024-07-22 16:16:00.028 +02:00 [INF] Now listening on: http://localhost:5178
+2024-07-22 16:16:00.031 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-22 16:16:00.033 +02:00 [INF] Hosting environment: Development
+2024-07-22 16:16:00.034 +02:00 [INF] Content root path: C:\Users\staff\source\repos\Use Serilog Integration\Use Serilog Integration
+2024-07-22 16:16:00.355 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.html - null null
+2024-07-22 16:16:00.582 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.html - 200 null text/html;charset=utf-8 228.643ms
+2024-07-22 16:16:00.662 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 16:16:00.670 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 7.8514ms
+2024-07-22 16:16:00.702 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_vs/browserLink - null null
+2024-07-22 16:16:00.773 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.647ms
+2024-07-22 16:16:01.905 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - null null
+2024-07-22 16:16:02.047 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.2528ms
+2024-07-22 16:16:13.815 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/WeatherForecast - null null
+2024-07-22 16:16:13.826 +02:00 [INF] Executing endpoint 'Use_Serilog_Integration.Controllers.WeatherForecastController.Get (Use Serilog Integration)'
+2024-07-22 16:16:13.849 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Use_Serilog_Integration.WeatherForecast] Get() on controller Use_Serilog_Integration.Controllers.WeatherForecastController (Use Serilog Integration).
+2024-07-22 16:16:13.854 +02:00 [INF] weather forcast processing has started
+2024-07-22 16:16:13.855 +02:00 [INF] weather forcast processing has started
+2024-07-22 16:16:13.885 +02:00 [INF] The results are  {"Date":"2024-07-23","TemperatureC":40,"TemperatureF":103,"Summary":"Sweltering","$type":"WeatherForecast"}
+2024-07-22 16:16:13.910 +02:00 [INF] The results are  [{"Date":"2024-07-23","TemperatureC":40,"TemperatureF":103,"Summary":"Sweltering","$type":"WeatherForecast"},{"Date":"2024-07-24","TemperatureC":52,"TemperatureF":125,"Summary":"Balmy","$type":"WeatherForecast"},{"Date":"2024-07-25","TemperatureC":45,"TemperatureF":112,"Summary":"Hot","$type":"WeatherForecast"},{"Date":"2024-07-26","TemperatureC":33,"TemperatureF":91,"Summary":"Freezing","$type":"WeatherForecast"},{"Date":"2024-07-27","TemperatureC":33,"TemperatureF":91,"Summary":"Scorching","$type":"WeatherForecast"}]
+2024-07-22 16:16:13.944 +02:00 [INF] Executing ObjectResult, writing value of type 'Use_Serilog_Integration.WeatherForecast[]'.
+2024-07-22 16:16:13.964 +02:00 [INF] Executed action Use_Serilog_Integration.Controllers.WeatherForecastController.Get (Use Serilog Integration) in 108.3605ms
+2024-07-22 16:16:13.967 +02:00 [INF] Executed endpoint 'Use_Serilog_Integration.Controllers.WeatherForecastController.Get (Use Serilog Integration)'
+2024-07-22 16:16:13.969 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/WeatherForecast - 200 null application/json; charset=utf-8 154.5951ms
+2024-07-22 16:18:14.671 +02:00 [INF] Now listening on: https://localhost:7224
+2024-07-22 16:18:14.708 +02:00 [INF] Now listening on: http://localhost:5178
+2024-07-22 16:18:14.712 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-22 16:18:14.714 +02:00 [INF] Hosting environment: Development
+2024-07-22 16:18:14.715 +02:00 [INF] Content root path: C:\Users\staff\source\repos\Use Serilog Integration\Use Serilog Integration
+2024-07-22 16:18:14.846 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.html - null null
+2024-07-22 16:18:15.162 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.html - 200 null text/html;charset=utf-8 317.1756ms
+2024-07-22 16:18:15.216 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 16:18:15.225 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 8.7755ms
+2024-07-22 16:18:15.287 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_vs/browserLink - null null
+2024-07-22 16:18:15.331 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.6015ms
+2024-07-22 16:18:15.899 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - null null
+2024-07-22 16:18:16.042 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.8408ms
+2024-07-22 16:18:23.406 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/WeatherForecast - null null
+2024-07-22 16:18:23.417 +02:00 [INF] Executing endpoint 'Use_Serilog_Integration.Controllers.WeatherForecastController.Get (Use Serilog Integration)'
+2024-07-22 16:18:23.438 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Use_Serilog_Integration.WeatherForecast] Get() on controller Use_Serilog_Integration.Controllers.WeatherForecastController (Use Serilog Integration).
+2024-07-22 16:18:23.444 +02:00 [INF] weather forcast processing has started
+2024-07-22 16:18:23.446 +02:00 [INF] weather forcast processing has started
+2024-07-22 16:18:23.451 +02:00 [INF] The results are  {"Date":"2024-07-23","TemperatureC":48,"TemperatureF":118,"Summary":"Sweltering","$type":"WeatherForecast"}
+2024-07-22 16:18:23.466 +02:00 [INF] The results are  [{"Date":"2024-07-23","TemperatureC":48,"TemperatureF":118,"Summary":"Sweltering","$type":"WeatherForecast"},{"Date":"2024-07-24","TemperatureC":45,"TemperatureF":112,"Summary":"Mild","$type":"WeatherForecast"},{"Date":"2024-07-25","TemperatureC":20,"TemperatureF":67,"Summary":"Warm","$type":"WeatherForecast"},{"Date":"2024-07-26","TemperatureC":53,"TemperatureF":127,"Summary":"Freezing","$type":"WeatherForecast"},{"Date":"2024-07-27","TemperatureC":17,"TemperatureF":62,"Summary":"Hot","$type":"WeatherForecast"}]
+2024-07-22 16:18:23.497 +02:00 [INF] Executing ObjectResult, writing value of type 'Use_Serilog_Integration.WeatherForecast[]'.
+2024-07-22 16:18:23.516 +02:00 [INF] Executed action Use_Serilog_Integration.Controllers.WeatherForecastController.Get (Use Serilog Integration) in 70.7577ms
+2024-07-22 16:18:23.518 +02:00 [INF] Executed endpoint 'Use_Serilog_Integration.Controllers.WeatherForecastController.Get (Use Serilog Integration)'
+2024-07-22 16:18:23.521 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/WeatherForecast - 200 null application/json; charset=utf-8 115.1965ms
+2024-07-22 16:20:59.046 +02:00 [INF] Now listening on: https://localhost:7224
+2024-07-22 16:20:59.114 +02:00 [INF] Now listening on: http://localhost:5178
+2024-07-22 16:20:59.137 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-22 16:20:59.153 +02:00 [INF] Hosting environment: Development
+2024-07-22 16:20:59.154 +02:00 [INF] Content root path: C:\Users\staff\source\repos\Use Serilog Integration\Use Serilog Integration
+2024-07-22 16:20:59.612 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.html - null null
+2024-07-22 16:20:59.863 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.html - 200 null text/html;charset=utf-8 253.3192ms
+2024-07-22 16:20:59.949 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 16:20:59.958 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 8.7936ms
+2024-07-22 16:21:00.063 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_vs/browserLink - null null
+2024-07-22 16:21:00.145 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.4026ms
+2024-07-22 16:21:00.725 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - null null
+2024-07-22 16:21:00.854 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 129.0627ms
+2024-07-22 16:21:44.104 +02:00 [INF] Now listening on: https://localhost:7224
+2024-07-22 16:21:44.153 +02:00 [INF] Now listening on: http://localhost:5178
+2024-07-22 16:21:44.156 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-22 16:21:44.158 +02:00 [INF] Hosting environment: Development
+2024-07-22 16:21:44.159 +02:00 [INF] Content root path: C:\Users\staff\source\repos\Use Serilog Integration\Use Serilog Integration
+2024-07-22 16:21:44.790 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.html - null null
+2024-07-22 16:21:44.993 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.html - 200 null text/html;charset=utf-8 205.434ms
+2024-07-22 16:21:45.039 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 16:21:45.047 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 7.9439ms
+2024-07-22 16:21:45.071 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_vs/browserLink - null null
+2024-07-22 16:21:45.106 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4053ms
+2024-07-22 16:21:45.779 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - null null
+2024-07-22 16:21:45.913 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 133.9037ms
+2024-07-22 16:22:10.468 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7224/WeatherForecast - null null
+2024-07-22 16:22:10.482 +02:00 [INF] Executing endpoint 'Use_Serilog_Integration.Controllers.WeatherForecastController.Get (Use Serilog Integration)'
+2024-07-22 16:22:10.501 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Use_Serilog_Integration.WeatherForecast] Get() on controller Use_Serilog_Integration.Controllers.WeatherForecastController (Use Serilog Integration).
+2024-07-22 16:22:10.505 +02:00 [INF] weather forcast processing has started
+2024-07-22 16:22:10.507 +02:00 [INF] weather forcast processing has started
+2024-07-22 16:22:10.514 +02:00 [INF] The results are  {"Date":"2024-07-23","TemperatureC":42,"TemperatureF":107,"Summary":"Freezing","$type":"WeatherForecast"}
+2024-07-22 16:22:10.528 +02:00 [INF] The results are  [{"Date":"2024-07-23","TemperatureC":42,"TemperatureF":107,"Summary":"Freezing","$type":"WeatherForecast"},{"Date":"2024-07-24","TemperatureC":49,"TemperatureF":120,"Summary":"Chilly","$type":"WeatherForecast"},{"Date":"2024-07-25","TemperatureC":-18,"TemperatureF":0,"Summary":"Hot","$type":"WeatherForecast"},{"Date":"2024-07-26","TemperatureC":2,"TemperatureF":35,"Summary":"Chilly","$type":"WeatherForecast"},{"Date":"2024-07-27","TemperatureC":5,"TemperatureF":40,"Summary":"Bracing","$type":"WeatherForecast"}]
+2024-07-22 16:22:10.568 +02:00 [INF] Executing ObjectResult, writing value of type 'Use_Serilog_Integration.WeatherForecast[]'.
+2024-07-22 16:22:10.588 +02:00 [INF] Executed action Use_Serilog_Integration.Controllers.WeatherForecastController.Get (Use Serilog Integration) in 80.7661ms
+2024-07-22 16:22:10.591 +02:00 [INF] Executed endpoint 'Use_Serilog_Integration.Controllers.WeatherForecastController.Get (Use Serilog Integration)'
+2024-07-22 16:22:10.593 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7224/WeatherForecast - 200 null application/json; charset=utf-8 125.3739ms
