@@ -9,10 +9,14 @@ namespace Use_Serilog_Integration.services
         {
             hostBuilder.UseSerilog((context,loggerConfig) =>
             {
-                loggerConfig.WriteTo.Console();
-                loggerConfig.WriteTo.File("app_logs.txt");
-                loggerConfig.WriteTo.File(new JsonFormatter(),"app_logs2.txt");
-                loggerConfig.WriteTo.File(new JsonFormatter(),"Logs/app_logs-.txt",rollingInterval:RollingInterval.Day);//create file log every day
+               // loggerConfig.WriteTo.Console();
+              //  loggerConfig.WriteTo.File("app_logs.txt");
+               // loggerConfig.WriteTo.File(new JsonFormatter(),"app_logs2.txt");
+                //loggerConfig.WriteTo.File(new JsonFormatter(),"Logs/app_logs-.txt",rollingInterval:RollingInterval.Day);//create file log every day
+
+                loggerConfig.ReadFrom.Configuration(context.Configuration);
+
+
 
             });
         }
